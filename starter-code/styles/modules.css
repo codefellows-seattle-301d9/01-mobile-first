@@ -10,9 +10,8 @@
 }
 
 .icon-menu {
-  /* TODO: Add styles for the icon-menu class (whether it be the
-      hamburger font icon or an image of your choosing). It should be
-      bigger, and off to the right. */
+  font-size: 1.5em;
+  float: right;
 }
 
 .main-nav {
@@ -56,6 +55,13 @@
 .byline a {
   font-weight: bold;
   text-decoration: none;
+}
+@media screen and (min-width: 480px) {
+  .main-nav {
+    padding: 0;
+    list-style: none;
+    clear: both;
+  }
 }
 
 /* TODO: Now add styles for how things should look on a larger screen,
